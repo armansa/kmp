@@ -2,7 +2,6 @@ package main
 
 import (
   "strings"
-  "fmt"
 )
 
 func ComputePrefix(pattern []byte) []int {
@@ -56,10 +55,3 @@ func StringSearch(target string, pattern string) []int {
   }
   return result
 }
-
-//func main() {
-//  target := "Peter told me that peter the pickle piper piped a pitted pickle before he petered out. Phew!"
-//  pattern := "Peterz"
-//  result := StringSearch(target, pattern)
-//  fmt.Printf("%v\n", result)
-//}
